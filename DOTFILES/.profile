@@ -8,6 +8,7 @@ if [ -f "$HOME/.bashrc" ]; then
     . "$HOME/.bashrc"
 fi
 
+export EDITOR="/usr/bin/vim"
 export GOROOT="/usr/local/go"
 export GOPATH="$HOME/Development/go"
 export PATH="$BIN_PATH:$GOROOT/bin/:$GOPATH/bin"
