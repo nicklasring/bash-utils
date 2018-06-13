@@ -22,3 +22,6 @@ alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 # Applications
 alias chrome='/usr/bin/google-chrome'
 alias ff='/usr/bin/firefox'
+
+# SSH Config
+alias vh="awk '/^Host/ {print $2;}' ~/.ssh/config"
